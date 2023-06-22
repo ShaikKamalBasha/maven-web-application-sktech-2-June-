@@ -101,13 +101,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>SK Technologies Releases Nexus Repository</name>
-	      <url>http://13.126.214.170:8081/repository/Nexus-Test-Release/</url>
+	      <url>http://15.207.16.91:8081/repository/Nexus-Test-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>SK Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.126.214.170:8081/repository/Nexus-Test-Snapshot/</url>
+	      <url>http://15.207.16.91:8081/repository/Nexus-Test-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
