@@ -1,2 +1,7 @@
-FROM tomcat:8.0.20-jre8
-COPY target/maven-web-app*.war /usr/local/tomcat/webapps/maven-web-application.war
+FROM ubuntu:22.04
+MAINTAINER sktechnologeisadl
+RUN mkdir /opt/mysrc &&\
+    apt update -y &&\
+    apt install git -y &&\
+    apt install curl -y &&\
+    apt install default-jdk -y 
