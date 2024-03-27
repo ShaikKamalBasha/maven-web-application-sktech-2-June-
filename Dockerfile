@@ -1,4 +1,4 @@
-FROM kamal2023/my_docker_images:latest
+FROM kamal2023/my_docker_images
 MAINTAINER Shaik Kamal Basha
 RUN mkdir /opt/tomcat 
 RUN cd /opt/tomcat && \ 
