@@ -5,4 +5,3 @@ RUN cd /opt/tomcat && \
     touch testfile
 RUN useradd testuser
 WORKDIR /app/src
-COPY ..
